@@ -1,0 +1,43 @@
+.links li{
+	display: inline;
+	margin-left: 15%;
+}
+.buttons button{
+	margin-top: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #a1a1a1;
+	font-size: 20px;
+	border-style: outset;
+	box-shadow: 5px 5px black;
+}
+.logo{
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+.header{
+	height: 100px;
+	background-color: #a1a1a1;
+	opacity: 85%;
+}
+.buttons {
+}
+.clearfix{
+	content: "";
+	clear: both;
+	display: table;
+}
+body{
+	background-color: dimgray;
+}
+.buttons button:hover {
+	position: relative; right:5px; bottom:5px ;
+	box-shadow: 10px 10px black;
+}
+.buttons button:active {
+	position: relative; left:5px; top:5px ;
+	box-shadow: none;
+}
